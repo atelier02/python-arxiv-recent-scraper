@@ -1,0 +1,201 @@
+@charset "UTF-8";
+body{
+	font-family: 'Lucida Grande', 'helvetica', 'arial', 'verdana', sans-serif;
+	color: #555;
+	background: #efefef;
+	padding: 40px 200px 40px 200px;
+	line-height: 1.6;
+}
+html {
+	font-size: 16px;
+}
+h1 {
+	font-size: 1.4rem;
+}
+h2 {
+	font-size: 1.4rem;
+	color: #222;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+	margin: 10px;
+	padding: 10px 20px;
+	background: #fff;
+}
+li {
+	list-style-type: none;
+}
+.card p .body {
+	margin: 30px 40px;
+}
+.subtitle {
+	text-align: center;
+	font-size: 1.2rem;
+	color: #999;
+}
+.note{
+	padding-left: 1em;
+	text-indent: -1em;
+}
+a {
+	color: #0073bc;
+	text-decoration: none;
+}
+a:hover {
+	color: #b7dbfc;
+	text-decoration: underline;
+}
+a:active {
+	color: #4ca4db;
+}
+a[target="_blank"]::after {
+	content: url(../images/new-tab.png);
+}
+.example::after {
+  content: '';/*何も入れない*/
+  display: inline-block;/*忘れずに！*/
+  width: 10px;/*画像の幅*/
+  height: 10px;/*画像の高さ*/
+  background-image: url(../images/new-tab.png);
+  background-size: contain;
+  vertical-align: middle;
+}
+a:hover img {
+	opacity: 0.7;
+}
+.frame {
+	padding: 8px;
+	border: 1px solid transparent;
+}
+a:hover .frame {
+	border: 1px solid #ccc;
+}
+.thumbnail-res {
+	max-width: 30%;
+}
+.float-box {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 0em;
+	vertical-align: baseline;
+}
+.float-clear {
+	overflow: hidden;
+}
+
+.subnav a {
+	color: #0073bc;
+	text-decoration: none;
+	padding-left: 16px;
+	/*background: url(../images/new-tab.png) no-repeat left 0 top 4px;*/
+}
+.nav .subnav a::before {
+	content: '';/*何も入れない*/
+	display: inline-block;/*忘れずに！*/
+	width: 10px;/*画像の幅*/
+	height: 10px;/*画像の高さ*/
+	 background-image: url(../images/new-tab.png);
+	background-size: contain;
+	vertical-align: middle;
+}
+.subnav a:hover {
+	color: #b7dbfc;
+	text-decoration: underline;
+}
+.subnav a:active {
+	color: #4ca4db;
+}
+.sidebar {
+	padding: 8px;
+	border: 1px solid #ccc;
+	width: 300px;
+}
+.sidebar .subnav li {
+	overflow: hidden;
+	margin: 1rem 0 1rem 0;
+}
+.subnav .thumb {
+	float: left;
+	max-width: 50%;
+}
+.subnav .summary {
+	margin: 0 0 0 108px;
+}
+.breadcrumb ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.breadcrumb a {
+	color: #1864b9;
+}
+.border {
+	border: 2px solid #999;
+}
+.border-side {
+	border-right: 1px dotted #999;
+	border-bottom: 1px dashed #333;
+	width: 100px;
+}
+.padding {
+	border: 2px solid #999;
+	width: 400px;
+	padding: 10px;
+}
+.wrapper {
+	overflow: hidden;
+}
+.margin {
+	float: left;
+	border: 2px solid #999;
+	width: 400px;
+	padding: 10px;
+	margin: 10px 0px 10px 10px;
+}
+.item1 {
+	border: 2px solid #999;
+	width: 400px;
+	padding: 10px;
+	margin: 10px 0px 10px 10px;
+	background-color: #fafafa;
+}
+.item2 {
+	border: 2px solid #999;
+	width: 400px;
+	padding: 10px;
+	margin: 10px 0px 10px 10px;
+	background: url(../images/bg1204.png) repeat;
+	color: #00F;
+}
+.scroll {
+	height: 600px;
+	padding: 10px;
+	margin: 10px 0px 10px 10px;
+	background: url(../images/1498660039202.jpg) fixed;
+	color: #00F;
+}
+.mask {
+	width: 400px;
+	background: #696969;
+	color: #FFF
+}
+.blockquote {
+	border-radius: 10px;
+	margin: 0;
+	padding: 32px;
+	width: 300px;
+	background: url(../images/quote-left.png) no-repeat left 10px top 20px,
+							url(../images/quote-right.png) no-repeat right 10px bottom 20px,
+							#eee;
+}
+.profile{
+	border-radius: 10px;
+	margin: 0;
+	padding: 32px;
+	width: 300px;
+}
+.profile h1 {
+	margin: 0;
+}
